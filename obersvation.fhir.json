@@ -1,19 +1,27 @@
 {
     "resourceType": "Observation",
+    "status": "final",
     "code": {
         "coding": [
             {
                 "system": "https://acme.lab/resultcodes",
-                "code": "NEG",
-                "display": "Negative"
+                "code": "Negative",
+                "display": "negative"
             }
         ],
         "text": "Negative for Chlamydia Trachomatis rRNA"
     },
     "subject": {
-        "_reference": {
-            "id": "44403565"
-        },
+        "reference": "Patient/44403565",
         "display": "Andrea White"
-    }
+    },
+
+    "triggeredBy": [
+        {
+            "observation": {
+                "id": "125"
+            },
+            "type": "_active"
+        }
+    ]
 }
