@@ -32,7 +32,9 @@ Set up VSCode to recognize FHIR schema
     *Example for data type "HumanName*
 5. Post new Patient resource to FHIR server using [publicly available FHIR servers for testing](https://confluence.hl7.org/display/FHIR/Public+Test+Servers)
    here we use R4 Endpoint of HAPI FHIR Reference Server: http://hapi.fhir.org/baseR4. Make a post request and copy Patient JSON into body (select JSON for body) and post it via Patient-endpoint http://hapi.fhir.org/baseR4/Patient, for
-   example using [postman](https://www.postman.com/). You will get  HTTP code 201 (created) response and an id, for me it is 44403565 for this patient. Making a get request on this id with http://hapi.fhir.org/baseR4/Patient/44403565, you will get your patient. 
+   example using [postman](https://www.postman.com/). You will get  HTTP code 201 (created) response and an id, for me it is 44403565 for this patient. Making a get request on this id with http://hapi.fhir.org/baseR4/Patient/44403565, you will get your patient.
+6. This time, we create a new resource type, Observation
+   
 
 
 
