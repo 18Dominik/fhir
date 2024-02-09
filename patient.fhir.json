@@ -1,27 +1,35 @@
 {
     "resourceType": "Patient",
-    "name": [{
-        "use": "official",
-        "given": ["Andrea"],
-        "family": "White"
-    }],
+    "name": [
+        {
+            "use": "official",
+            "given": [
+                "Andrea"
+            ],
+            "family": "White"
+        }
+    ],
     "gender": "female",
     "birthDate": "2000-02-08",
-    "telecom": [{
-        "value": "+6015733597",
-        "use": "home",
-        "system": "phone"
-    },
-{
-    "system": "email",
-    "value": "a.white@gmail.com"
-}],
-"address": [
-    {
-    "line": ["Rexington Street 529"],
-    "city": "Pittsburgh",
-    "state": "Pennsylvania",
-    "postalCode": "60875"
-    }
-]
+    "telecom": [
+        {
+            "value": "+6015733597",
+            "use": "home",
+            "system": "phone"
+        },
+        {
+            "system": "email",
+            "value": "a.white@gmail.com"
+        }
+    ],
+    "address": [
+        {
+            "line": [
+                "Rexington Street 529"
+            ],
+            "city": "Pittsburgh",
+            "state": "Pennsylvania",
+            "postalCode": "60875"
+        }
+    ]
 }
